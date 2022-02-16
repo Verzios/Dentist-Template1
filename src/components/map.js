@@ -7,6 +7,7 @@ export default function Map() {
 			<div class="mapouter" style={{ marginTop: 32 }}>
 				<div class="gmap_canvas">
 					<iframe
+						title="test"
 						width="80%"
 						height="400"
 						id="gmap_canvas"
@@ -16,7 +17,7 @@ export default function Map() {
 						marginheight="0"
 						marginwidth="0"
 						style={{ marginLeft: 'auto', marginRight: 'auto' }}
-					></iframe>
+					/>
 
 					<a href="https://www.embedgooglemap.net"></a>
 				</div>
