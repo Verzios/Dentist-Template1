@@ -12,7 +12,7 @@ export default function Afterhero() {
 				Our Services
 			</h2>
 			<p
-				className="lg:w-[600px] w-[400px] ml-auto mr-auto"
+				className="lg:w-[600px] w-[380px] ml-auto mr-auto"
 				style={{ color: '#666' }}
 			>
 				Our dental office in Toronto uses the latest dental technology

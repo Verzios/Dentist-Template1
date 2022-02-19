@@ -18,7 +18,7 @@ export default function Navbar() {
 				width="282px"
 				height="65px"
 			/>
-			{open ? <PhoneSideBar open={left} setLeft={setLeft} /> : ''}
+			{left ? <PhoneSideBar open={left} setLeft={setLeft} /> : ''}
 			<div className="px-4 cursor-pointer lg:hidden ">
 				<svg
 					className="w-24 h-10"
